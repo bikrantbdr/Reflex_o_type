@@ -1,0 +1,58 @@
+﻿  Classic.cpp
+E:\VS\project1\project1\Classic.cpp(53,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\VS\project1\project1\Classic.cpp(53,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\VS\project1\project1\Classic.cpp(55,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\VS\project1\project1\Classic.cpp(55,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\VS\project1\project1\Classic.cpp(58,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\VS\project1\project1\Classic.cpp(58,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\VS\project1\project1\Classic.cpp(60,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\VS\project1\project1\Classic.cpp(63,43): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\VS\project1\project1\Classic.cpp(63,32): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\VS\project1\project1\Classic.cpp(68,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\VS\project1\project1\Classic.cpp(68,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\VS\project1\project1\Classic.cpp(119,55): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+E:\VS\project1\project1\Classic.cpp(119,48): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+E:\VS\project1\project1\Classic.cpp(226,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\VS\project1\project1\Classic.cpp(365,51): warning C4244: '+=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\VS\project1\project1\Classic.cpp(385,45): warning C4244: '-=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+  project1.vcxproj -> E:\VS\project1\x64\Debug\project1.exe

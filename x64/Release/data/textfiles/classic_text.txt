@@ -1,0 +1,50 @@
+The greatest glory in living lies not in never falling, but in rising every time we fall.
+The way to get started is to quit talking and begin doing.
+And some are given a chance to climb; they cling to the realm or the gods or love.
+In your relationships with one another, have the same mindset as Christ Jesus.
+Failure is simply the opportunity to begin again, this time more intelligently.
+Passion is one great force that unleashes creativity, because if you're passionate about something, then you're more willing to take risks.
+All our dreams can come true, if we have the courage to pursue them.
+Greater love has no one than this: to lay down one's life for one's friends.
+May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit.
+The best way to measure how much you've grown isn't by inches or the number of laps you can now run around the track, or even your grade point average - though those things are important, to be sure.
+When someone says, "I want a programming language in which I need only say what I want done," give him a lollipop.
+Programming is like sex. One mistake and you have to support it for the rest of your life.
+Perfection [in design] is achieved, not when there is nothing more to add, but when there is noting left to take away.
+Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
+Without requirements or design, programming is the art of adding bugs to an empty text file.
+The trouble with programmers is that you can never tell what a programmer is doing until it's too late.
+Programs must be written for people to read, and only incidentally for machines to execute.
+If you are working on something that you really care about, you don't have to be pushed.
+No matter what you're going through, there's a light at the end of the tunnel.
+The good news is you don't know how great you can be! How much you can love! What you can accomplish! And what your potential is.
+Whoever sheds the blood of man, by man shall his blood be shed, for God made man in his own image.
+Train up a child in the way he should go; even when he is old he will not depart from it.
+For I consider that the sufferings of this present time are not worth comparing with the glory that is to be revealed to us.
+Richard Feynman: Physicist. "I would hate to die twice. This dying business is boring."
+Despite the fear and uncertainty, I want you to know that I love you, I'm here, and I'm willing to see all of it through as long as you're by my side.
+I used to try to stop thinking about you, but now my mind embraces you like you're exactly what I need to survive this life.
+Marriage is basically getting the chance to annoy someone for the rest of your life, and then hoping that they still keep loving you anyway.
+Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.
+There are only two kinds of programming languages out there. The ones people complain about and the ones no one uses.
+The best thing about a boolean is even if you are wrong, you are only off by a bit.
+It is a far, far better thing that I do, than I have ever done; it is a far, far better rest I go to than I have ever known.
+Everything can be taken from a man but one thing: the last of the human freedoms-to choose one's attitude in any given set of circumstances, to choose one's own way.
+Such a pleasant day and evening should have ended with a restful night and happy dreams, but it didn't.
+All people need rest, even if they are made of wood, and as there is no night here they select a certain time of the day in which to sleep or doze.
+Moreover, according to occultism, astrological forces are vibrations which are transmitted to earth via an infinite number of longitudinal waves through the ether.
+I looked and looked at her, and I knew, as clearly as I know that I will die, that I loved her more than anything I had ever seen or imagined on earth.
+She was perhaps too young to realize that what she assumed was her love for [him] was actually a tentative, timorous, acceptance of herself.
+Love is like the rain. It comes in a drizzle sometimes. Then it starts pouring and if you're not careful it will drown you.
+The number one reason people give up so fast is because they tend to look at how far they still have to go instead of how far they have come.
+Personality begins where comparison leaves off. Be unique. Be memorable. Be confident. Be proud.
+With a new "smart" something coming out almost every day, what products amaze and astound you the most?
+How many stairs did you come across in this building while you were on your way to this interview?
+How do you print all nodes of a given binary tree using inorder traversal without recursion?
+In the US there are about 350 spoken languages. But coding has us beat with over 700 coding languages in use today!
+In 1947 a technician at Harvard had an issue with the performance of their Mark II computer. Once they investigated, they discovered that a moth had gotten into a relay - an actual real live bug.
+Just like a virus infects a human body by replicating versions of itself to pass on to other hosts, a computer virus spreads by inserting its own code and spreading to new computers via networks.
+Don't mind other people's aspirations, don't ever let someone else's goals influence your vision of life. It's your path and you decide where it takes you and how long it takes you to see it through.
+Live your life to its full extent because life is short and we never know what tomorrow brings.
+Your life is your own and you know what's best for you. However, keep in mind that morning is wiser than the evening. Enjoy life!
+Whenever you're writing a piece of code, you should think about what the next developer is going to find when looking at that piece of code.
