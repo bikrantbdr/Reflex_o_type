@@ -28,7 +28,7 @@ Menu::Menu(float width, float height)
 	}
 	texture.loadFromFile("data/image/title.PNG");
 	sprite.setTexture(texture);
-	sprite.setPosition(sf::Vector2f(width / 2 - 203, 50));
+	sprite.setPosition(sf::Vector2f(width / 2 - 181, 50));
 
 
 
