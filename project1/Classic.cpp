@@ -3,6 +3,7 @@
 #include<iostream>
 #include<fstream>
 Classic::Classic() {
+	//set the height and width for all the containers as well as their startng point in y-axis and gap between them
 	width = 1200;
 	height = 900;
 	int a_width = 950, a_height = 85, a_start = 100;
@@ -20,6 +21,8 @@ Classic::Classic() {
 
 	while (getline(classic_text, line))
 	{
+		//get a line from file and push them to string vector
+		
 		//std::cout<<line<<std::endl;
 		sentences.push_back(line);
 	}
@@ -30,7 +33,7 @@ Classic::Classic() {
 		// handle error
 	}
 
-	//load alpha_values from files
+	//load alphabets accuracy values from files
 	std::ifstream  alpha_file("data/textfiles/alphabet_values.txt");
 	if (!alpha_file)
 	{
@@ -44,6 +47,7 @@ Classic::Classic() {
 		alpha_values.push_back(alph_val);
 	}
 
+	//header
 	classic_head.setFont(font);
 	classic_head.setFillColor(sf::Color(43, 234, 40));
 	classic_head.setString("CLASSIC");
@@ -59,7 +63,7 @@ Classic::Classic() {
 	container_b.setFillColor(sf::Color(50, 50, 50));
 	container_b.setPosition((1200 - b_width) / 2, container_a.getPosition().y + container_a.getSize().y + gap + 50);
 
-	//alphabets
+	//alphabet accuracy containers box
 	alpha[0].setSize(sf::Vector2f(alp_width, alp_height));
 	alpha[0].setFillColor(sf::Color(55, 55, 55));
 	alpha[0].setPosition(container_a.getPosition().x + 20, container_a.getPosition().y + 40);
@@ -82,7 +86,7 @@ Classic::Classic() {
 	wpm_value.setString("0");
 	wpm_value.setPosition(container_a.getPosition().x + 120, container_a.getPosition().y + 3);
 
-	//alphabet text
+	//alphabet accuracy text
 	for (int i = 0; i < 26; i++) {
 		alpha_text[i].setFont(font);
 		alpha_text[i].setFillColor(sf::Color(0, 0, 0));
@@ -134,6 +138,7 @@ void Classic::classic_run() {
 				key.key_pressed(key.keyindex(event.key.code));
 				break;
 			case sf::Event::KeyReleased:
+				//keyboard released
 				switch (event.key.code)
 				{
 				case sf::Keyboard::Escape:
@@ -141,14 +146,14 @@ void Classic::classic_run() {
 					classic_window.close();
 					break;
 				}
-				//keyboard released		
+				//default color of key released		
 				key.key_released(key.keyindex(event.key.code));
 				break;
 			}
 
 		}
 
-
+		//update color of alphabaet accuracy
 		check_color();
 		classic_window.clear(sf::Color(25, 25, 25));
 		this->classic_draw(classic_window);
@@ -228,6 +233,7 @@ void Classic::set_active_sentence() {
 	active_sentence = sentences[random];
 	sentences.erase(sentences.begin() + random);
 
+	//fint the number of words in active sentence
 	for (int i = 0; i < active_sentence.size(); i++) {
 		if (active_sentence.compare(i, 1, " ") == 0) {
 			words_in_sentence++;
@@ -333,7 +339,7 @@ void Classic::check_letter(sf::Event& event) {
 			a -= 65;
 		}
 
-
+		//correct on 1st try
 		if (active_sentence[active_letter_index] == static_cast<char>(event.text.unicode) && letter_correct == 0) {
 
 			active_text[active_letter_index].setFillColor(sf::Color(40, 230, 40));
@@ -345,17 +351,21 @@ void Classic::check_letter(sf::Event& event) {
 				alpha_values[a] += 1/(alpha_values[a]*2);
 			}
 
-			if (active_letter_index == active_sentence.size()) {
-				this->timer_stop();
-				this->set_active_sentence();
-				this->set_text_string();
-			}
 			//start timer
 			if (active_letter_index - 1 == 0) {
 				this->timer_start();
 			}
 
+			//last letter -> stop timer and new sentence
+			if (active_letter_index == active_sentence.size()) {
+				this->timer_stop();
+				this->set_active_sentence();
+				this->set_text_string();
+			}
+			
+
 		}
+		//correct after more than one 
 		else if (active_sentence[active_letter_index] == static_cast<char>(event.text.unicode) && letter_correct > 0) {
 			active_letter_index++;
 			letter_correct = 0;

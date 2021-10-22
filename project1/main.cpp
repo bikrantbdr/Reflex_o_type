@@ -6,7 +6,7 @@
 using namespace sf;
 
 int main() {
-	//std::cout << "begins\n";
+	//start menu interface
 	Menu menu(1200, 900);
 	menu.run();
 }

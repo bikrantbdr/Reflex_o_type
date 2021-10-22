@@ -1,28 +1,124 @@
-﻿  Menu.cpp
-E:\VS\project1\project1\Menu.cpp(38,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+﻿  Classic.cpp
+E:\3rd sem project\typing_tutor-master\project1\Classic.cpp(57,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-E:\VS\project1\project1\Menu.cpp(43,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+E:\3rd sem project\typing_tutor-master\project1\Classic.cpp(57,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-E:\VS\project1\project1\Menu.cpp(48,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+E:\3rd sem project\typing_tutor-master\project1\Classic.cpp(59,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\3rd sem project\typing_tutor-master\project1\Classic.cpp(59,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\3rd sem project\typing_tutor-master\project1\Classic.cpp(62,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-E:\VS\project1\project1\Menu.cpp(53,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+E:\3rd sem project\typing_tutor-master\project1\Classic.cpp(62,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-E:\VS\project1\project1\Menu.cpp(59,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-E:\VS\project1\project1\Menu.cpp(63,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-E:\VS\project1\project1\Menu.cpp(67,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-E:\VS\project1\project1\Menu.cpp(71,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-E:\VS\project1\project1\Menu.cpp(83,47): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-E:\VS\project1\project1\Menu.cpp(83,40): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-  project1.vcxproj -> E:\VS\project1\x64\Debug\project1.exe
+E:\3rd sem project\typing_tutor-master\project1\Classic.cpp(64,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\3rd sem project\typing_tutor-master\project1\Classic.cpp(67,43): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\3rd sem project\typing_tutor-master\project1\Classic.cpp(67,32): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\3rd sem project\typing_tutor-master\project1\Classic.cpp(72,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\3rd sem project\typing_tutor-master\project1\Classic.cpp(72,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\3rd sem project\typing_tutor-master\project1\Classic.cpp(123,55): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+E:\3rd sem project\typing_tutor-master\project1\Classic.cpp(123,48): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+E:\3rd sem project\typing_tutor-master\project1\Classic.cpp(231,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\3rd sem project\typing_tutor-master\project1\Classic.cpp(375,51): warning C4244: '+=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\3rd sem project\typing_tutor-master\project1\Classic.cpp(395,45): warning C4244: '-=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+  Menu.cpp
+E:\3rd sem project\typing_tutor-master\project1\Menu.cpp(40,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\3rd sem project\typing_tutor-master\project1\Menu.cpp(46,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\3rd sem project\typing_tutor-master\project1\Menu.cpp(52,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\3rd sem project\typing_tutor-master\project1\Menu.cpp(58,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\3rd sem project\typing_tutor-master\project1\Menu.cpp(64,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\3rd sem project\typing_tutor-master\project1\Menu.cpp(69,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\3rd sem project\typing_tutor-master\project1\Menu.cpp(74,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\3rd sem project\typing_tutor-master\project1\Menu.cpp(79,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\3rd sem project\typing_tutor-master\project1\Menu.cpp(91,47): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+E:\3rd sem project\typing_tutor-master\project1\Menu.cpp(91,40): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  Rapid.cpp
+E:\3rd sem project\typing_tutor-master\project1\Rapid.cpp(57,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\3rd sem project\typing_tutor-master\project1\Rapid.cpp(57,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\3rd sem project\typing_tutor-master\project1\Rapid.cpp(59,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\3rd sem project\typing_tutor-master\project1\Rapid.cpp(59,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\3rd sem project\typing_tutor-master\project1\Rapid.cpp(62,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\3rd sem project\typing_tutor-master\project1\Rapid.cpp(62,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\3rd sem project\typing_tutor-master\project1\Rapid.cpp(64,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\3rd sem project\typing_tutor-master\project1\Rapid.cpp(67,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\3rd sem project\typing_tutor-master\project1\Rapid.cpp(67,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\3rd sem project\typing_tutor-master\project1\Rapid.cpp(69,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\3rd sem project\typing_tutor-master\project1\Rapid.cpp(234,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\3rd sem project\typing_tutor-master\project1\Rapid.cpp(257,46): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  main.cpp
+  Generating Code...
+  project1.vcxproj -> E:\3rd sem project\typing_tutor-master\x64\Debug\project1.exe

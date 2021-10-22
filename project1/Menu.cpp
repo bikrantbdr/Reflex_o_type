@@ -9,13 +9,13 @@ Menu::Menu(float width, float height)
 	selectedItemIndex = 0;
 	int start = 250, gap = 125;
 	if (!move_buffer.loadFromFile("data/sound/menu.wav")) {
-		//nothing
+		//sound not loaded
 	}
 	if (!end_buffer.loadFromFile("data/sound/over.wav")) {
-		//nothing
+		//sound not loaded
 	}
 	if (!enter_buffer.loadFromFile("data/sound/enter.wav")) {
-		//nothing
+		//sound not loaded
 	}
 	move.setBuffer(move_buffer);
 	end.setBuffer(end_buffer);
@@ -26,46 +26,54 @@ Menu::Menu(float width, float height)
 	{
 		// handle error
 	}
+
+	//load the title image/logo design
 	texture.loadFromFile("data/image/title.PNG");
 	sprite.setTexture(texture);
 	sprite.setPosition(sf::Vector2f(width / 2 - 181, 50));
 
 
-
+	//classic button
 	menu[0].setFont(font);
 	menu[0].setFillColor(sf::Color(43, 234, 40));
 	menu[0].setString("Classic");
 	menu[0].setPosition(sf::Vector2f((width / 2 - 50), (start + gap * 0 + 5)));
 
+	//rapid button
 	menu[1].setFont(font);
 	menu[1].setFillColor(sf::Color(43, 234, 40));
 	menu[1].setString("Rapid");
 	menu[1].setPosition(sf::Vector2f((width / 2 - 38), (start + gap * 1 + 5)));
 
+	//user button
 	menu[2].setFont(font);
 	menu[2].setFillColor(sf::Color(43, 234, 40));
 	menu[2].setString("User");
 	menu[2].setPosition(sf::Vector2f((width / 2 - 30), (start + gap * 2 + 5)));
 
+	//exit button
 	menu[3].setFont(font);
 	menu[3].setFillColor(sf::Color(43, 234, 40));
 	menu[3].setString("Exit");
 	menu[3].setPosition(sf::Vector2f((width / 2 - 30), (start + gap * 3 + 5)));
 
 
-
+	//classic button container
 	option[0].setSize(sf::Vector2f(200, 50));
 	option[0].setFillColor(sf::Color(183, 183, 184));
 	option[0].setPosition((width / 2 - 100), start + gap * 0);
 
+	//rapid button container
 	option[1].setSize(sf::Vector2f(200, 50));
 	option[1].setFillColor(sf::Color(64, 64, 64));
 	option[1].setPosition((width / 2 - 100), start + gap * 1);
 
+	//user button container
 	option[2].setSize(sf::Vector2f(200, 50));
 	option[2].setFillColor(sf::Color(64, 64, 64));
 	option[2].setPosition((width / 2 - 100), start + gap * 2);
 
+	//exit button container
 	option[3].setSize(sf::Vector2f(200, 50));
 	option[3].setFillColor(sf::Color(64, 64, 64));
 	option[3].setPosition((width / 2 - 100), start + gap * 3);
@@ -113,6 +121,8 @@ void Menu::run() {
 				case sf::Keyboard::Return:
 					//std::cout<<"enter\n";
 					enter.play();
+
+					//select a option based on selectedItemIndex
 					switch (selectedItemIndex)
 					{
 					case 0:

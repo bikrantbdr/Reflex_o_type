@@ -20,6 +20,7 @@ Rapid::Rapid() {
 		// handle error
 	}
 
+	//header
 	rapid_head.setFont(font);
 	rapid_head.setFillColor(sf::Color(43, 234, 40));
 	rapid_head.setString("RAPID");
@@ -32,7 +33,7 @@ Rapid::Rapid() {
 		std::cout << "File can not opened" << std::endl;
 		exit(0);
 	}
-
+	//get a word from file and push it into string vector
 	while (getline(rapid_text, line))
 	{
 		words.push_back(line);
